@@ -27,14 +27,6 @@ namespace RMIT_Authenticator
             LoadInitialData();
             SetupTimer();
         }
-        private void TextBox_MouseLeftButtonUp(object sender, System.Windows.Input.MouseButtonEventArgs e)
-        {
-            //if (sender is TextBox textBox)
-            //{
-            //    textBox.SelectAll();
-            //    textBox.Focus(); // Đảm bảo TextBlock nhận focus để Ctrl+C hoạt động
-            //}
-        }
         private void LoadInitialData()
         {
             try
